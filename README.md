@@ -20,3 +20,5 @@ Please note that on PostGre we can potentially use enum.
 # Description:
 This schema is designed to store information about instruments, including their name, type, current status, and any relevant notes. Timestamps track creation and updates
 
+# TODO: 
+* Maybe we should do a bi-temp DB. 
