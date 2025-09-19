@@ -13,9 +13,9 @@ Here is a data schema document for storing instruments:
 | updated_at  | Timestamp     | Defaults to current timestamp, updates on modification      |
 
 # Status values:
+Please note that on PostGre we can potentially use enum. 
 * active
 * inactive
-* under_maintenance
 
 # Description:
 This schema is designed to store information about instruments, including their name, type, current status, and any relevant notes. Timestamps track creation and updates
